@@ -1,10 +1,16 @@
+Die uma = new Die(200,200);
+Die two 
 void setup()
 {
+	size (400, 400)
 	noLoop();
-}
+	textAlign(CENTER);
+
 void draw()
 {
-	//your code here
+	uma.roll();
+	uma.show();
+
 }
 void mousePressed()
 {
